@@ -422,7 +422,7 @@
 
     <script>
         const summaryBox = document.getElementById('summaryBox');
-        const loanAmount = localStorage.getItem('loanAmount') || '5000';
+        const loanAmount = localStorage.getItem('loanAmount') || '500';
         const formattedAmount = parseFloat(loanAmount).toLocaleString('en-US');
         const termDays = localStorage.getItem('loanTerm') || '30';
         summaryBox.innerHTML = `
